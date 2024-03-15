@@ -1,5 +1,6 @@
 import Header from '../../components/Header/Header';
 import AdvantagesBlock from '../../components/AdvantagesBlock/AdvantagesBlock';
+import AboutBlock from '../../components/AboutBlock/AboutBlock';
 
 import styles from './MainPage.module.scss';
 
@@ -45,6 +46,7 @@ const MainPage = () => {
         </nav>
       </div>
       <AdvantagesBlock />
+      <AboutBlock />
     </>
   );
 };
