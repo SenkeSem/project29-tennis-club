@@ -6,6 +6,7 @@ import PriceBlock from '../../components/PriceBlock/PriceBlock';
 import ServicesBlock from '../../components/ServicesBlock/ServicesBlock';
 
 import styles from './MainPage.module.scss';
+import Footer from '../../components/Footer/Footer';
 
 const MainPage = () => {
   return (
@@ -55,6 +56,7 @@ const MainPage = () => {
         <PriceBlock />
         <ServicesBlock />
       </div>
+      <Footer />
     </>
   );
 };
