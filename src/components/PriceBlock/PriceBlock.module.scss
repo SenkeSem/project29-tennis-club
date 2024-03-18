@@ -1,0 +1,48 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 526px;
+  height: 455px;
+
+  h3 {
+    font-size: 36px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    section {
+      cursor: pointer;
+
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 15px 30px 15px 13px;
+
+      width: 100%;
+      height: 60px;
+      background-color: rgba(141, 134, 201, 1);
+
+      p {
+        margin-right: 30px;
+        font-size: 21px;
+        color: white;
+      }
+
+      img {
+        width: 30px;
+        height: 30px;
+      }
+    }
+
+    section:hover {
+      justify-content: start;
+    }
+  }
+}

@@ -2,6 +2,8 @@ import Header from '../../components/Header/Header';
 import AdvantagesBlock from '../../components/AdvantagesBlock/AdvantagesBlock';
 import AboutBlock from '../../components/AboutBlock/AboutBlock';
 import TrainersBlock from '../../components/TrainersBlock/TrainersBlock';
+import PriceBlock from '../../components/PriceBlock/PriceBlock';
+import ServicesBlock from '../../components/ServicesBlock/ServicesBlock';
 
 import styles from './MainPage.module.scss';
 
@@ -14,7 +16,7 @@ const MainPage = () => {
           <h1>Петербургский теннисный клуб имени М.А. Пасечникова</h1>
           <section>
             <a href="https://www.youtube.com/watch?v=0tfBbbXoNH0">
-              <img src="/public/play.svg" alt="play" />
+              <img src="/play.svg" alt="play" />
             </a>
             <p>Посмотрите видео о нашем клубе</p>
           </section>
@@ -49,6 +51,10 @@ const MainPage = () => {
       <AdvantagesBlock />
       <AboutBlock />
       <TrainersBlock />
+      <div className={styles.priceAndServices}>
+        <PriceBlock />
+        <ServicesBlock />
+      </div>
     </>
   );
 };
