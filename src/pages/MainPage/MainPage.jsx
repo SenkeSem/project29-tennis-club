@@ -1,6 +1,7 @@
 import Header from '../../components/Header/Header';
 import AdvantagesBlock from '../../components/AdvantagesBlock/AdvantagesBlock';
 import AboutBlock from '../../components/AboutBlock/AboutBlock';
+import TrainersBlock from '../../components/TrainersBlock/TrainersBlock';
 
 import styles from './MainPage.module.scss';
 
@@ -47,6 +48,7 @@ const MainPage = () => {
       </div>
       <AdvantagesBlock />
       <AboutBlock />
+      <TrainersBlock />
     </>
   );
 };
