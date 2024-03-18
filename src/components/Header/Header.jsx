@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import styles from './Header.module.scss';
 
 const Header = () => {
@@ -6,8 +8,12 @@ const Header = () => {
       <img src="/tennis.png" alt="tennis" />
       <nav>
         <ul>
-          <li>Главная</li>
-          <li>О клубе</li>
+          <li>
+            <Link to="/">Главная</Link>
+          </li>
+          <li>
+            <Link to="/about">О клубе</Link>
+          </li>
           <li>Турниры</li>
           <li>Услуги</li>
           <li>Детский теннис</li>

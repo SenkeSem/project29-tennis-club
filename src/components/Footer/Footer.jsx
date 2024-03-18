@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 const Footer = () => {
   return (
     <footer className={styles.wrapper}>
-      <p>2022 © Все права защищены.</p>
+      <p>2024 © Все права защищены.</p>
       <nav>
         <ul>
           <li>Главная</li>

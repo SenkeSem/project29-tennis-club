@@ -7,12 +7,12 @@ import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
+    <div className="container">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
-    </>
+    </div>
   );
 }
 
