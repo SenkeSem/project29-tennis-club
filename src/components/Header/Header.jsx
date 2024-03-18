@@ -3,7 +3,7 @@ import styles from './Header.module.scss';
 const Header = () => {
   return (
     <header className={styles.wrapper}>
-      <img src="/public/tennis.png" alt="tennis" />
+      <img src="/tennis.png" alt="tennis" />
       <nav>
         <ul>
           <li>Главная</li>
@@ -17,8 +17,8 @@ const Header = () => {
         </ul>
       </nav>
       <div className={styles.logoBox}>
-        <img src="/public/youtube.svg" alt="youtube" />
-        <img src="/public/vk.svg" alt="vk" />
+        <img src="/youtube.svg" alt="youtube" />
+        <img src="/vk.svg" alt="vk" />
       </div>
     </header>
   );

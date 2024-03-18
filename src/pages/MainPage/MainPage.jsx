@@ -25,25 +25,25 @@ const MainPage = () => {
           <article>
             <p>Услуги</p>
             <h5>
-              Аренда корта <img src="/public/ci_external-link.svg" alt="link" />
+              Аренда корта <img src="/ci_external-link.svg" alt="link" />
             </h5>
           </article>
           <article>
             <p>Услуги</p>
             <h5>
-              Детский теннис <img src="/public/ci_external-link.svg" alt="link" />
+              Детский теннис <img src="/ci_external-link.svg" alt="link" />
             </h5>
           </article>
           <article>
             <p>Услуги</p>
             <h5>
-              Сборы команд <img src="/public/ci_external-link.svg" alt="link" />
+              Сборы команд <img src="/ci_external-link.svg" alt="link" />
             </h5>
           </article>
           <article>
             <p>Услуги</p>
             <h5>
-              Расписание <img src="/public/ci_external-link.svg" alt="link" />
+              Расписание <img src="/ci_external-link.svg" alt="link" />
             </h5>
           </article>
         </nav>
