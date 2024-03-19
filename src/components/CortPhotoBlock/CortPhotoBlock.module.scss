@@ -1,0 +1,60 @@
+.wrapperPhoto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  margin-top: 60px;
+
+  width: 1296px;
+  height: 610px;
+
+  .headerPhoto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+      font-size: 36px;
+    }
+
+    article {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+
+      button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        width: 41px;
+        height: 41px;
+        background-color: rgba(141, 134, 201, 1);
+        border: none;
+      }
+    }
+  }
+
+  .serviceImg {
+    width: 1296px;
+    height: 500px;
+
+    padding: 30px 25px 30px 25px;
+    border: 1px solid rgba(247, 236, 225, 1);
+
+    .photo {
+      width: 100%;
+      height: 100%;
+
+      position: relative;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url('/cort.png');
+    }
+  }
+}

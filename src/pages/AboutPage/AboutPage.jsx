@@ -1,5 +1,8 @@
 import Header from './../../components/Header/Header';
 import Footer from './../../components/Footer/Footer';
+import CortPhotoBlock from '../../components/CortPhotoBlock/CortPhotoBlock';
+import BigAboutBlock from '../../components/BigAboutBlock/BigAboutBlock';
+import RulesBlock from '../../components/RulesBlock/RulesBlock';
 
 import styles from './AboutPage.module.scss';
 
@@ -11,7 +14,11 @@ const AboutPage = () => {
           <Header />
           <h1>О клубе</h1>
         </div>
-        <main></main>
+        <main>
+          <CortPhotoBlock />
+          <BigAboutBlock />
+          <RulesBlock />
+        </main>
         <Footer />
       </div>
     </>

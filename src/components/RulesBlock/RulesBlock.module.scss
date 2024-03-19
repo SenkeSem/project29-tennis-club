@@ -1,0 +1,25 @@
+.wrapper {
+  width: 1326px;
+  height: 1086px;
+
+  border: 1px solid red;
+
+  margin: 0 auto;
+  margin-top: 120px;
+
+  section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .rules {
+      width: 366px;
+      height: 432px;
+    }
+
+    .rulesOpen {
+      width: 886px;
+      height: 949px;
+    }
+  }
+}
