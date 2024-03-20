@@ -1,11 +1,12 @@
 .wrapper {
   width: 1326px;
-  height: 1086px;
-
-  border: 1px solid red;
 
   margin: 0 auto;
   margin-top: 120px;
+
+  h3 {
+    font-size: 36px;
+  }
 
   section {
     display: flex;
@@ -15,11 +16,46 @@
     .rules {
       width: 366px;
       height: 432px;
+
+      ul {
+        padding-left: 25px;
+      }
+
+      li {
+        cursor: pointer;
+        font-size: 21px;
+        list-style-type: none;
+        margin-bottom: 40px;
+      }
+
+      li.active {
+        font-weight: bold;
+        padding-left: 40px;
+        color: rgba(141, 134, 201, 1);
+      }
     }
 
     .rulesOpen {
       width: 886px;
-      height: 949px;
+      height: 100%;
+
+      div {
+        h5 {
+          font-size: 18px;
+          margin-bottom: 10px;
+        }
+
+        ul {
+          padding-left: 25px;
+          list-style-image: url('/minus.svg');
+
+          li {
+            padding-left: 25px;
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+        }
+      }
     }
   }
 }
