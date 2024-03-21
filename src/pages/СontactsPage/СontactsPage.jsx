@@ -13,10 +13,7 @@ const СontactsPage = () => {
         </div>
         <main>
           <section>
-            <img
-              src="http://tennisclub.by/images/tild6464-6163-4631-b332-346434323239__group2.png"
-              alt="phone"
-            />
+            <img src="/phono.png" alt="phone" />
             <div>
               <p>+375 29 XXX XX XX</p>
               <p>+375 17 YYY YY YY</p>
@@ -24,10 +21,7 @@ const СontactsPage = () => {
             </div>
           </section>
           <section>
-            <img
-              src="http://tennisclub.by/images/tild6238-3363-4633-b635-386462346263__group2.png"
-              alt="address"
-            />
+            <img src="/address.png" alt="address" />
             <div>
               <p>КЛУБ ТЕННИСА</p>
               <p>Республика Беларусь</p>
@@ -36,10 +30,7 @@ const СontactsPage = () => {
             </div>
           </section>
           <section>
-            <img
-              src="http://tennisclub.by/images/tild3833-6532-4832-b338-393066303165__group3.png"
-              alt="parking"
-            />
+            <img src="/parking.png" alt="parking" />
             <div>
               <p>Бесплатная парковка</p>
               <p>на которой Ваш автомобиль</p>
