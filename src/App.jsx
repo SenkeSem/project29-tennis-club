@@ -1,5 +1,6 @@
 import MainPage from './pages/MainPage/MainPage';
 import AboutPage from './pages/AboutPage/AboutPage';
+import NewsPage from './pages/NewsPage/NewsPage';
 
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/news" element={<NewsPage />} />
       </Routes>
     </div>
   );

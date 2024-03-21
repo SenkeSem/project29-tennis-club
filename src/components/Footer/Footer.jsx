@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 import styles from './Footer.module.scss';
 
 const Footer = () => {
@@ -6,9 +8,15 @@ const Footer = () => {
       <p>2024 © Все права защищены.</p>
       <nav>
         <ul>
-          <li>Главная</li>
-          <li>О клубе</li>
-          <li>Турниры</li>
+          <li>
+            <Link to="/">Главная</Link>
+          </li>
+          <li>
+            <Link to="/about">О клубе</Link>
+          </li>
+          <li>
+            <Link to="/news">Новости</Link>
+          </li>
           <li>Услуги</li>
           <li>Детский теннис</li>
           <li>Галерея</li>

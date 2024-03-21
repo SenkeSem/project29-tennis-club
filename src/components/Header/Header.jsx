@@ -14,7 +14,9 @@ const Header = () => {
           <li>
             <Link to="/about">О клубе</Link>
           </li>
-          <li>Турниры</li>
+          <li>
+            <Link to="/news">Новости</Link>
+          </li>
           <li>Услуги</li>
           <li>Детский теннис</li>
           <li>Галерея</li>
