@@ -21,7 +21,9 @@ const Header = () => {
           <li>Детский теннис</li>
           <li>Галерея</li>
           <li>Цены</li>
-          <li>Контакты</li>
+          <li>
+            <Link to="/contacts">Контакты</Link>
+          </li>
         </ul>
       </nav>
       <div className={styles.logoBox}>
