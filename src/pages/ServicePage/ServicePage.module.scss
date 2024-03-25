@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  width: 100%;
+  height: 100%;
+
+  .headerWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 180px;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url('https://kartinki.pics/pics/uploads/posts/2022-08/1661327506_7-kartinkin-net-p-tennis-oboi-krasivo-7.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+      margin-bottom: 20px;
+      text-align: center;
+      color: white;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 80px;
+
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 80px;
+
+    flex-grow: 1;
+
+    section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+
+      article {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 50%;
+
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

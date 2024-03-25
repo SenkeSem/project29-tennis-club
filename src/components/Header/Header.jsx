@@ -17,7 +17,9 @@ const Header = () => {
           <li>
             <Link to="/news">Новости</Link>
           </li>
-          <li>Услуги</li>
+          <li>
+            <Link to="/service">Услуги</Link>
+          </li>
           <li>Детский теннис</li>
           <li>Галерея</li>
           <li>Цены</li>
