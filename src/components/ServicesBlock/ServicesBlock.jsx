@@ -25,16 +25,16 @@ const ServicesBlock = () => {
     },
   ];
 
-  const [activeService, isActiveService] = useState(0);
+  const [activeService, setActiveService] = useState(0);
 
   const handleNextImg = () => {
     let next = activeService;
     next++;
 
     if (next >= SERVICES_INFO.length) {
-      isActiveService(0);
+      setActiveService(0);
     } else {
-      isActiveService(next);
+      setActiveService(next);
     }
   };
 
@@ -43,9 +43,9 @@ const ServicesBlock = () => {
     prev--;
 
     if (prev < 0) {
-      isActiveService(SERVICES_INFO.length - 1);
+      setActiveService(SERVICES_INFO.length - 1);
     } else {
-      isActiveService(prev);
+      setActiveService(prev);
     }
   };
 

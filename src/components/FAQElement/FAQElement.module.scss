@@ -1,0 +1,36 @@
+.wrapper {
+  cursor: pointer;
+  width: 100%;
+  border-bottom: 1px solid gray;
+
+  .faqHeader {
+    padding: 15px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    h5 {
+      font-size: 16px;
+    }
+
+    &:hover {
+      h5 {
+        color: red;
+      }
+    }
+
+    img {
+      cursor: pointer;
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  p {
+    padding: 15px;
+    font-size: 18px;
+    font-weight: lighter;
+  }
+}

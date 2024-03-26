@@ -3,6 +3,7 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import NewsPage from './pages/NewsPage/NewsPage';
 import СontactsPage from './pages/СontactsPage/СontactsPage';
 import ServicePage from './pages/ServicePage/ServicePage';
+import ChildrenPage from './pages/ChildrenPage/ChildrenPage';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/news" element={<NewsPage />} />
         <Route path="/contacts" element={<СontactsPage />} />
         <Route path="/service" element={<ServicePage />} />
+        <Route path="/children" element={<ChildrenPage />} />
       </Routes>
     </div>
   );
