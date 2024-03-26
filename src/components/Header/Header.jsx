@@ -5,7 +5,9 @@ import styles from './Header.module.scss';
 const Header = () => {
   return (
     <header className={styles.wrapper}>
-      <img src="/tennis.png" alt="tennis" />
+      <Link to="/">
+        <img src="/tennis.png" alt="tennis" />
+      </Link>
       <nav>
         <ul>
           <li>
@@ -31,8 +33,12 @@ const Header = () => {
         </ul>
       </nav>
       <div className={styles.logoBox}>
-        <img src="/youtube.svg" alt="youtube" />
-        <img src="/vk.svg" alt="vk" />
+        <Link to="https://www.youtube.com/@IntuitiveTennis">
+          <img src="/youtube.svg" alt="youtube" />
+        </Link>
+        <Link to="https://vk.com/tennis_t14">
+          <img src="/vk.svg" alt="vk" />
+        </Link>
       </div>
     </header>
   );
