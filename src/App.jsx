@@ -4,6 +4,7 @@ import NewsPage from './pages/NewsPage/NewsPage';
 import СontactsPage from './pages/СontactsPage/СontactsPage';
 import ServicePage from './pages/ServicePage/ServicePage';
 import ChildrenPage from './pages/ChildrenPage/ChildrenPage';
+import PricePage from './pages/PricePage/PricePage';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Route path="/contacts" element={<СontactsPage />} />
         <Route path="/service" element={<ServicePage />} />
         <Route path="/children" element={<ChildrenPage />} />
+        <Route path="/price" element={<PricePage />} />
       </Routes>
     </div>
   );
