@@ -25,7 +25,9 @@ const Header = () => {
           <li>
             <Link to="/children">Детский теннис</Link>
           </li>
-          <li>Галерея</li>
+          <li>
+            <Link to="/gallery">Галерея</Link>
+          </li>
           <li>
             <Link to="/price">Цены</Link>
           </li>

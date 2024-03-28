@@ -5,6 +5,7 @@ import СontactsPage from './pages/СontactsPage/СontactsPage';
 import ServicePage from './pages/ServicePage/ServicePage';
 import ChildrenPage from './pages/ChildrenPage/ChildrenPage';
 import PricePage from './pages/PricePage/PricePage';
+import GalleryPage from './pages/GalleryPage/GalleryPage';
 
 import './App.css';
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/service" element={<ServicePage />} />
         <Route path="/children" element={<ChildrenPage />} />
         <Route path="/price" element={<PricePage />} />
+        <Route path="/gallery" element={<GalleryPage />} />
       </Routes>
     </div>
   );
